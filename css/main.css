@@ -6,12 +6,21 @@
 	display: none;
 }
 
+.divider
+{
+	width: 1400px;
+	height: 25px;
+	background: #999;
+}
+
 #siteContainer
 {
 	margin: 0 auto;
 	width: 1400px;
 	height: auto;
 	text-decoration: none;
+	background: #d7d7d7;
+	font-family: Arial;
 }
 
 #mainNav {
@@ -64,9 +73,252 @@
 	padding: 10px;
 }
 
+#heroContainer
+{
+	height: 500px;
+	background: #999;
+}
+
+#heroImg
+{
+	height: 400px;
+	background: #333;
+}
+
+#heroSlogan1
+{
+	font-size: 36px;
+	font-family: Arial;
+	color: #FFF;
+	position: relative;
+	top: 8px;
+	left: 20px;
+}
+
+#heroSlogan2
+{
+	font-size: 36px;
+	font-family: Arial;
+	color: #FFF;
+	position: relative;
+	margin-top: 0;
+	top: 320px;
+	left: 880px;
+}
 
 
+#heroText
+{
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	padding-top: 50px;
+	font-family: Arial;
+	height: 100px;
+	background: #999;
+	font-size: 30px;
+}
 
+#memberships
+{
+	width: 1400px;
+	height: 300px;
+	background: #d7d7d7;
+	display: flex;
+}
+
+#membershipImg {
+	margin-left: 25px;
+	width: 150px;
+	height: 300px;
+	background: #333;
+}
+
+#membershipText
+{	
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 30px;
+	width: 1050px;
+}
+
+#membershipText h2
+{
+	font-size: 36px;
+}
+
+#membershipText p
+{
+	margin-top: 10px;
+	line-height: 45px;
+	text-indent: 20px;
+}
+
+#fundraiser
+{
+	width: 1050px;
+	height: 525px;
+	margin-left: 175px;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+#fundraiser p
+{
+	margin-top: 15px;
+	font-size: 24px;
+	text-align: center;
+}
+
+#fundraiserImgs
+{
+	width: 1050px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.fundraiserImg
+{
+	width: 300px;
+	height: 275px;
+	background: #333;
+}
+
+#fundraiserTitles
+{
+	width: 1050px;
+	font-size: 24px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fundraiserTitle
+{
+	text-align: center;
+	width: 300px;
+}
+
+.title
+{
+	width: 1050px;
+	margin-left: 175px;
+	font-family: Arial;
+}
+
+.title h2
+{
+	font-size: 36px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.subtitle
+{
+	width: 1050px;
+	margin-left: 175px;
+	font-family: Arial;
+}
+
+.subtitle h3
+{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.announcements
+{
+	width: 1050px;
+	height: 300px;
+	padding: 10px;
+	margin-left: 175px;
+	font-family: Arial;
+	display: flex;
+}
+
+.announcement
+{	
+	width: 700px;
+	margin-left: 20px;
+	font-size: 22px;
+	line-height: 40px;
+	text-indent: 20px;
+}
+
+.announcement h2
+{
+	width: 1050px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.announcementImg
+{
+	width: 300px;
+	height: 300px;
+	background: #333;
+	margin-top: 10px;
+}
+
+.businesses
+{
+	width: 1050px;
+	height: 300px;
+	display: flex;
+	margin-left: 175px;
+	padding: 10px;
+}
+
+.businessText
+{	
+	text-indent: 20px;
+	flex-direction: row;
+	width: 700px;
+	margin-left: 15px;
+	font-size: 22px;
+	line-height: 40px;
+}
+
+.businessesImg
+{
+	width: 300px;
+	height: 175px;
+	background: #333;
+	margin-top: 10px;
+}
+
+.executives
+{
+	width: 1050px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.chairs
+{
+	width: 1050px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.members {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.member {
+	flex-direction: column;
+	padding: 10px
+}
+
+.member h2
+{
+	font-weight: bold;
+}
 
 #footerNav {
 	height: 175px;
