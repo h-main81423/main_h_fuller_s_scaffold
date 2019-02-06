@@ -12,6 +12,7 @@
 	width: 1400px;
 	height: auto;
 	text-decoration: none;
+	background: #d7d7d7;
 }
 
 #mainNav {
@@ -64,6 +65,170 @@
 	padding: 10px;
 }
 
+
+.divider
+{
+	width: 1400px;
+	height: 25px;
+	background: #999;
+}
+
+
+
+.title
+{
+	font-size: 36px;
+	padding: 10px;
+	font-family: Arial;
+}
+
+#about1{
+	width: 1050px;
+	background: #d7d7d7;
+	display: flex;
+	margin: 0 auto;
+}
+
+#about1 h1{
+	font-size: 36px;
+	padding: 10px;
+	display: flex;
+
+
+}
+
+#aboutImageCon{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+
+#imageA1{
+	height: 300px;
+	width: 505px;
+	background: #333;
+	margin-right: auto;
+
+
+}
+
+#imageA2{
+	height: 300px;
+	width: 505px;
+	background: #333;
+	margin-right: auto;
+}
+
+#aboutTop{
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+
+}
+
+.title2 {
+	font-size: 30px;
+	padding: 10px;
+	font-family: Arial;
+
+}
+
+#aboutTop p {
+	
+	line-height: 45px;
+	font-size: 24px;
+	
+
+}
+	
+#about2{
+	width: 1050px;
+	display: flex;
+	margin: 0 auto;
+	background-color: #d7d7d7;
+	height: 705px;
+
+}
+
+#about2ImageCon {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+
+}
+
+#about2Image {
+	height: 300px;
+	width: 505px;
+	background: #333;
+	margin-right: auto;
+}
+
+#about2Image2 {
+	height: 300px;
+	width: 505px;
+	background: #333;
+	margin-right: auto;
+}
+
+
+
+#about2TextCon {
+	display: flex;
+	flex-direction: column;
+	margin-left: 50px;
+	margin-top: 10px; 
+
+
+}
+
+#about2TextCon p {
+	font-size: 24px;
+	font-family: Arial;
+	margin-right: 50px;
+	line-height: 27px;
+}
+
+
+
+#memberships
+{
+	width: 1400px;
+	height: 300px;
+	background: #d7d7d7;
+	display: flex;
+}
+
+#membershipImg {
+	margin-left: 25px;
+	width: 150px;
+	height: 300px;
+	background: #333;
+}
+
+#membershipText
+{	
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 30px;
+	width: 1050px;
+}
+
+#membershipText h2
+{
+	font-size: 36px;
+}
+
+#membershipText p
+{
+	margin-top: 10px;
+	line-height: 45px;
+	text-indent: 20px;
+}
 
 
 
