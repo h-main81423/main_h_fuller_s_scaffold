@@ -232,7 +232,7 @@
 .announcements
 {
 	width: 1050px;
-	height: 300;
+	height: 300px;
 	padding: 10px;
 	margin-left: 175px;
 	font-family: Arial;
@@ -266,7 +266,7 @@
 .businesses
 {
 	width: 1050px;
-	height: 300;
+	height: 300px;
 	display: flex;
 	margin-left: 175px;
 	padding: 10px;
