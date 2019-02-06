@@ -5,3 +5,101 @@
 {
 	display: none;
 }
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 1400px;
+	height: auto;
+	text-decoration: none;
+}
+
+#mainNav {
+	height: 175px;
+	width: 1400px;
+	background: #898989;
+	display: flex;
+}
+
+#logoContainer {
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 25px;
+	background: #252525
+}
+
+#mainNav ul{
+	display: flex;
+	height: 175px;
+	margin-top: 75px;
+}
+
+#mainNav ul li {
+	font-family: Arial;
+	font-size: 24px;
+	color: #000;
+	margin-left: 15px;
+}
+
+#Sbutton{
+	background: #333;
+	padding-top:5px;
+	border-radius: 10px;
+	width: 90px;
+	height: 30px;
+}
+
+#mainNav ul li a {
+	text-decoration: none;
+	flex-direction: row;
+	padding: 5px;
+	border-radius: 10px;
+	color: #000;
+}
+
+#mainNav ul li a:hover {
+	background-color: #999;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+
+
+
+
+#footerNav {
+	height: 175px;
+	background: #898989;
+	display: flex;
+}
+
+#footerNav ul{
+	width: 1400px;
+	display: flex;
+	height: 175px;
+	margin-top: 75px;
+	margin-left: 75px;
+}
+
+#footerNav ul li {
+	font-family: Arial;
+	font-size: 24px;
+	color: #000;
+	margin-left: 15px;
+}
+
+#footerNav ul li a {
+	text-decoration: none;
+	flex-direction: row;
+	padding: 20px;
+	border-radius: 10px;
+	color: #000;
+}
+
+#footerNav ul li a:hover {
+	background-color: #999;
+	border-radius: 10px;
+	padding: 20px;
+}
+
